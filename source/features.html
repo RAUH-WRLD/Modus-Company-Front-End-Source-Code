@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global-styles/style.min.css">
+    <link rel="stylesheet" href="css/features-styles/features.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Modus Company | Our Features</title>
+</head>
+<body>
+    @@include("---header.html")
+    <main>
+        <section id="features">
+            <div class="features__wrapper">
+                <div class="features">
+                    <div class="features__content">
+                        <div class="features__content-start">
+                            <div class="features__info">
+                                <div class="grid-container">
+                                    <div class="features__info-title">
+                                        <h1>FEATURES</h1>
+                                    </div>
+                                    <div class="features__info-point">
+                                        <a href="index.html">Home</a>
+                                        <span>/</span>
+                                        <a href="features.html">Features</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="features__content-end">
+                            <div class="grid-container">
+                                <div class="features__project">
+                                    <div class="features__project-slider">
+                                        <button id="features__project-slider-prev"><i class="fa fa-angle-double-left" aria-hidden="true"></i></button>
+                                        <div class="features__project-container">
+                                            <div class="features__project-slider-slide">
+                                                <div class="features__project-slider-item">
+                                                    <div class="project-slider-item__info">
+                                                        <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                        <h2>PROJECT SLIDESHOW</h2>
+                                                    </div>
+                                                </div>
+                                                <div class="features__project-slider-item">
+                                                    <div class="project-slider-item__info">
+                                                        <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                        <h2>PROJECT SLIDESHOW №1</h2>
+                                                    </div>
+                                                </div>
+                                                <div class="features__project-slider-item">
+                                                    <div class="project-slider-item__info">
+                                                        <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                        <h2>PROJECT SLIDESHOW №2</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button id="features__project-slider-next"><i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+                                    </div> 
+                                    <div class="features__project-slider-bars"></div>
+                                </div>
+                                <div class="features__start-info">
+                                    <div class="row large-collapse medium-collapse small-collapse">
+                                        <div class="small-12 medium-12 large-9 columns">
+                                            <div class="features__blog">
+                                                <div class="features__blog-slider">
+                                                    <button id="features__blog-slider-prev"><i class="fa fa-angle-double-left" aria-hidden="true"></i></button>
+                                                    <div class="features__blog-container">
+                                                        <div class="features__blog-slider-slide">
+                                                            <div class="features__blog-slider-item">
+                                                                <div class="blog-slider-item__info">
+                                                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                    <h2>BLOG/PAGE slideshow</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="features__blog-slider-item">
+                                                                <div class="blog-slider-item__info">
+                                                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                    <h2>BLOG/PAGE slideshow №1</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="features__blog-slider-item">
+                                                                <div class="blog-slider-item__info">
+                                                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                    <h2>BLOG/PAGE slideshow №2</h2>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <button id="features__blog-slider-next"><i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+                                                </div> 
+                                                <div class="features__blog-slider-bars"></div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-6 large-3 columns">
+                                            <div class="features__sidebar">
+                                                <div class="features__sidebar-slider">
+                                                    <button id="features__sidebar-slider-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+                                                    <div class="features__sidebar-container">
+                                                        <div class="features__sidebar-slider-slide">
+                                                            <div class="features__sidebar-slider-item">
+                                                                <div class="sidebar-slider-item__info">
+                                                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                    <h2>Sidebar slideshow</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="features__sidebar-slider-item">
+                                                                <div class="sidebar-slider-item__info">
+                                                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                    <h2>Sidebar slideshow №1</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="features__sidebar-slider-item">
+                                                                <div class="sidebar-slider-item__info">
+                                                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                    <h2>Sidebar slideshow №2</h2>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <button id="features__sidebar-slider-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                                                </div> 
+                                                <div class="features__sidebar-slider-bars"></div>
+                                            </div>
+                                            <div class="features__gallery">
+                                                <div class="features__gallery-title">
+                                                    <h3>SIDEBAR GALLERY</h3>
+                                                </div>
+                                                <div class="features__gallery-items">
+                                                    <div class="gallery-items__row">
+                                                        <div class="gallery-item">
+                                                            <a href="404.html"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+                                                        </div>
+                                                        <div class="gallery-item">
+                                                            <a href="404.html"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+                                                        </div>
+                                                        <div class="gallery-item">
+                                                            <a href="404.html"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="gallery-items__row">
+                                                        <div class="gallery-item">
+                                                            <a href="404.html"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+                                                        </div>
+                                                        <div class="gallery-item">
+                                                            <a href="404.html"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+                                                        </div>
+                                                        <div class="gallery-item">
+                                                            <a href="404.html"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features__services">
+                                    <div class="services__cards">
+                                        <div class="row large-collapse medium-collapse small-collapse">
+                                            <div class="small-12 medium-6 large-3 columns">
+                                                <div class="services__cards-item">
+                                                    <div class="card">
+                                                        <div class="card__icon">
+                                                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="card__title">
+                                                            <h3>SUSPENDISSE</h3>
+                                                        </div>
+                                                        <div class="card__info">
+                                                            <p>Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc.</p>
+                                                        </div>
+                                                        <div class="card__link">
+                                                            <a href="services.html">read more</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="small-12 medium-6 large-3 columns">
+                                                <div class="services__cards-item">
+                                                    <div class="card">
+                                                        <div class="card__icon">
+                                                            <i class="fa fa-key" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="card__title">
+                                                            <h3>MAECENAS</h3>
+                                                        </div>
+                                                        <div class="card__info">
+                                                            <p>Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                                                        </div>
+                                                        <div class="card__link">
+                                                            <a href="services.html">read more</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="small-12 medium-6 large-3 columns">
+                                                <div class="services__cards-item">
+                                                    <div class="card">
+                                                        <div class="card__icon">
+                                                            <i class="fa fa-flag" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="card__title">
+                                                            <h3>ALIQUAM</h3>
+                                                        </div>
+                                                        <div class="card__info">
+                                                            <p>Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non.</p>
+                                                        </div>
+                                                        <div class="card__link">
+                                                            <a href="services.html">read more</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="small-12 medium-6 large-3 columns">
+                                                <div class="services__cards-item">
+                                                    <div class="card">
+                                                        <div class="card__icon">
+                                                            <i class="fa fa-flask" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="card__title">
+                                                            <h3>HABITASSE</h3>
+                                                        </div>
+                                                        <div class="card__info">
+                                                            <p>Astehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non.</p>
+                                                        </div>
+                                                        <div class="card__link">
+                                                            <a href="services.html">read more</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features__advantages">
+                                    <div class="features__advantages-content-start">
+                                        <div class="advantages__main-info">
+                                            <div class="main-info__accordions">
+                                                <div class="row large-collapse medium-collapse small-collapse">
+                                                    <div class="small-12 medium-12 large-9 columns">
+                                                        <div class="accordion__row-start">
+                                                            <div class="accordion" id="accordion-1">
+                                                                <div class="accordion__title" id="accordion-1">
+                                                                    <h3>ACCORDION TITLE</h3>
+                                                                    <i class="fa fa-plus" aria-hidden="true" id="accordion-1"></i>
+                                                                </div>
+                                                                <div class="accordion__info" id="accordion-1">
+                                                                    <p>Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor.Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion" id="accordion-2">
+                                                                <div class="accordion__title" id="accordion-2">
+                                                                    <h3>ACCORDION TITLE</h3>
+                                                                    <i class="fa fa-plus" aria-hidden="true" id="accordion-2"></i>
+                                                                </div>
+                                                                <div class="accordion__info" id="accordion-2">
+                                                                    <p>Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor.Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion" id="accordion-3">
+                                                                <div class="accordion__title" id="accordion-3">
+                                                                    <h3>ACCORDION TITLE</h3>
+                                                                    <i class="fa fa-plus" aria-hidden="true" id="accordion-3"></i>
+                                                                </div>
+                                                                <div class="accordion__info" id="accordion-3">
+                                                                    <p>Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor.Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="small-12 medium-12 large-3 columns">
+                                                        <div class="accordion__row-end">
+                                                            <div class="accordion" id="accordion-4">
+                                                                <div class="accordion__title" id="accordion-4">
+                                                                    <h3>ACCORDION TITLE</h3>
+                                                                    <i class="fa fa-plus" aria-hidden="true" id="accordion-4"></i>
+                                                                </div>
+                                                                <div class="accordion__info" id="accordion-4">
+                                                                    <p>Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion" id="accordion-5">
+                                                                <div class="accordion__title" id="accordion-5">
+                                                                    <h3>ACCORDION TITLE</h3>
+                                                                    <i class="fa fa-plus" aria-hidden="true" id="accordion-5"></i>
+                                                                </div>
+                                                                <div class="accordion__info" id="accordion-5">
+                                                                    <p>Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion" id="accordion-6">
+                                                                <div class="accordion__title" id="accordion-6">
+                                                                    <h3>ACCORDION TITLE</h3>
+                                                                    <i class="fa fa-plus" aria-hidden="true" id="accordion-6"></i>
+                                                                </div>
+                                                                <div class="accordion__info" id="accordion-6">
+                                                                    <p>Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="features__advantages-content-end">
+                                        <div class="advantages__other-info">
+                                            <div class="other-info__tabs">
+                                                <div class="row large-collapse medium-collapse small-collapse">
+                                                    <div class="small-12 medium-12 large-9 columns">
+                                                        <div class="tabs__row-start">
+                                                            <div class="tabs">
+                                                                <div class="tabs__titles">
+                                                                    <h3 id="tab-1" class="tab-active">TAB TITLE</h3>
+                                                                    <h3 id="tab-2">TAB TITLE</h3>
+                                                                    <h3 id="tab-3">TAB TITLE</h3>
+                                                                    <h3 id="tab-4">TAB TITLE</h3>
+                                                                </div>
+                                                                <div class="tabs__info">
+                                                                    <div class="tabs__info-item tab-info-active" id="tab-1">
+                                                                        <p>Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor.Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo. Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor.Ut eleifend libero sed neque rhoncus consequat.</p>
+                                                                        <div class="info-item__image">
+                                                                            <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tabs__info-item" id="tab-2">
+                                                                        <p>Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor.Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo. Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor.Ut eleifend libero sed neque rhoncus consequat. #2</p>
+                                                                        <div class="info-item__image">
+                                                                            <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tabs__info-item" id="tab-3">
+                                                                        <p>Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor.Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo. Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor.Ut eleifend libero sed neque rhoncus consequat. #3</p>
+                                                                        <div class="info-item__image">
+                                                                            <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tabs__info-item" id="tab-4">
+                                                                        <p>Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor.Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo. Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor.Ut eleifend libero sed neque rhoncus consequat. #4</p>
+                                                                        <div class="info-item__image">
+                                                                            <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="small-12 medium-12 large-3 columns">
+                                                        <div class="tabs__row-end">
+                                                            <div class="tabs">
+                                                                <div class="tabs__titles">
+                                                                    <h3 id="tab-5" class="tab-active">TAB TITLE</h3>
+                                                                    <h3 id="tab-6">TAB TITLE</h3>
+                                                                </div>
+                                                                <div class="tabs__info">
+                                                                    <div class="tabs__info-item tab-info-active" id="tab-5">
+                                                                        <p>Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor.Ut eleifend libero sed neque rhoncu #5</p>
+                                                                    </div>
+                                                                    <div class="tabs__info-item" id="tab-6">
+                                                                        <p>Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor.Ut eleifend libero sed neque rhoncu #6</p>     
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="other__info-gallery">
+                                                <div class="gallery__item">
+                                                    <div class="grid-x">
+                                                        <div class="small-12 medium-12 large-3 cell">
+                                                            <div class="gallery__item-card">
+                                                                <div class="gallery__item-card-icon">
+                                                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                </div>
+                                                                <div class="gallery__item-card-info">
+                                                                    <div class="gallery__item-card-info-functions">
+                                                                        <a href="404.html"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                                        <a href="404.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                                    </div>
+                                                                    <div class="gallery__item-card-info-title">
+                                                                        <h3>Lorem ipsum</h3>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="small-12 medium-12 large-3 cell">
+                                                            <div class="gallery__item-card">
+                                                                <div class="gallery__item-card-icon">
+                                                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                </div>
+                                                                <div class="gallery__item-card-info">
+                                                                    <div class="gallery__item-card-info-functions">
+                                                                        <a href="404.html"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                                        <a href="404.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                                    </div>
+                                                                    <div class="gallery__item-card-info-title">
+                                                                        <h3>Lorem ipsum</h3>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="small-12 medium-12 large-3 cell">
+                                                            <div class="gallery__item-card">
+                                                                <div class="gallery__item-card-icon">
+                                                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                </div>
+                                                                <div class="gallery__item-card-info">
+                                                                    <div class="gallery__item-card-info-functions">
+                                                                        <a href="404.html"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                                        <a href="404.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                                    </div>
+                                                                    <div class="gallery__item-card-info-title">
+                                                                        <h3>Lorem ipsum</h3>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="small-12 medium-12 large-3 cell">
+                                                            <div class="gallery__item-card">
+                                                                <div class="gallery__item-card-icon">
+                                                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                </div>
+                                                                <div class="gallery__item-card-info">
+                                                                    <div class="gallery__item-card-info-functions">
+                                                                        <a href="404.html"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                                        <a href="404.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                                    </div>
+                                                                    <div class="gallery__item-card-info-title">
+                                                                        <h3>Lorem ipsum</h3>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="gallery__item">
+                                                    <div class="grid-x">
+                                                        <div class="small-12 medium-12 large-6 cell">
+                                                            <div class="gallery__item-card">
+                                                                <div class="gallery__item-card-icon">
+                                                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                </div>
+                                                                <div class="gallery__item-card-info">
+                                                                    <div class="gallery__item-card-info-functions">
+                                                                        <a href="404.html"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                                        <a href="404.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                                    </div>
+                                                                    <div class="gallery__item-card-info-title">
+                                                                        <h3>Lorem ipsum</h3>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="small-12 medium-12 large-6 cell">
+                                                            <div class="gallery__item-card">
+                                                                <div class="gallery__item-card-icon">
+                                                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                                </div>
+                                                                <div class="gallery__item-card-info">
+                                                                    <div class="gallery__item-card-info-functions">
+                                                                        <a href="404.html"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                                        <a href="404.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                                    </div>
+                                                                    <div class="gallery__item-card-info-title">
+                                                                        <h3>Lorem ipsum</h3>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features__end-info">
+                                    <div class="features__end-info-content-start">
+                                        <div class="features__statistics">
+                                            <div class="features__statistics-item">
+                                                <div class="statistics-item__title">
+                                                    <h3>Headline</h3>
+                                                </div>
+                                                <div class="statistics-item__info">
+                                                    <p>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                                </div>
+                                            </div>
+                                            <div class="grid-x">
+                                                <div class="small-12 medium-12 large-6 cell">
+                                                    <div class="features__statistics-item">
+                                                        <div class="statistics-item__title">
+                                                            <h3>Headline</h3>
+                                                        </div>
+                                                        <div class="statistics-item__info">
+                                                            <p>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small-12 medium-12 large-6 cell">
+                                                    <div class="features__statistics-item">
+                                                        <div class="statistics-item__title">
+                                                            <h3>Headline</h3>
+                                                        </div>
+                                                        <div class="statistics-item__info">
+                                                            <p>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-x">
+                                                <div class="small-12 medium-12 large-9 cell">
+                                                    <div class="features__statistics-item">
+                                                        <div class="statistics-item__title">
+                                                            <h3>Headline</h3>
+                                                        </div>
+                                                        <div class="statistics-item__info">
+                                                            <p>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small-12 medium-12 large-3 cell">
+                                                    <div class="features__statistics-item">
+                                                        <div class="statistics-item__title">
+                                                            <h3>Headline</h3>
+                                                        </div>
+                                                        <div class="statistics-item__info">
+                                                            <p>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-x">
+                                                <div class="small-12 medium-12 large-3 cell">
+                                                    <div class="features__statistics-item">
+                                                        <div class="statistics-item__title">
+                                                            <h3>Headline</h3>
+                                                        </div>
+                                                        <div class="statistics-item__info">
+                                                            <p>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small-12 medium-12 large-3 cell">
+                                                    <div class="features__statistics-item">
+                                                        <div class="statistics-item__title">
+                                                            <h3>Headline</h3>
+                                                        </div>
+                                                        <div class="statistics-item__info">
+                                                            <p>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small-12 medium-12 large-3 cell">
+                                                    <div class="features__statistics-item">
+                                                        <div class="statistics-item__title">
+                                                            <h3>Headline</h3>
+                                                        </div>
+                                                        <div class="statistics-item__info">
+                                                            <p>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small-12 medium-12 large-3 cell">
+                                                    <div class="features__statistics-item">
+                                                        <div class="statistics-item__title">
+                                                            <h3>Headline</h3>
+                                                        </div>
+                                                        <div class="statistics-item__info">
+                                                            <p>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="features__end-info-content-end">
+                                        <div class="features__list">
+                                            <div class="grid-x">
+                                                <div class="small-12 medium-6 large-3 cell">
+                                                    <div class="features__list-item">
+                                                        <div class="list-item__title">
+                                                            <h3>Arrow list font size 13px</h3>
+                                                        </div>
+                                                        <div class="list-item__info">
+                                                            <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Quisque at massa ipsum</p>
+                                                            <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Maecenas a lorem augue, egestas</p>
+                                                            <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Cras vitae felis at lacus eleifend</p>
+                                                            <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Etiam auctor diam pellentesque</p>
+                                                            <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Nulla ac massa at dolor</p>
+                                                            <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Condimentum eleifend vitae vitae</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small-12 medium-6 large-3 cell">
+                                                    <div class="features__list-item">
+                                                        <div class="list-item__title">
+                                                            <h3>List font size 14px</h3>
+                                                        </div>
+                                                        <div class="list-item__info">
+                                                            <p><i class="fa fa-times" aria-hidden="true"></i> Quisque at massa ipsum</p>
+                                                            <p><i class="fa fa-times" aria-hidden="true"></i> Maecenas a lorem augue, egestas</p>
+                                                            <p><i class="fa fa-times" aria-hidden="true"></i> Cras vitae felis at lacus eleifend</p>
+                                                            <p><i class="fa fa-times" aria-hidden="true"></i> Etiam auctor diam pellentesque</p>
+                                                            <p><i class="fa fa-times" aria-hidden="true"></i> Nulla ac massa at dolor</p>
+                                                            <p><i class="fa fa-times" aria-hidden="true"></i> Condimentum eleifend vitae vitae</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small-12 medium-6 large-3 cell">
+                                                    <div class="features__list-item">
+                                                        <div class="list-item__title">
+                                                            <h3>List font size 14px</h3>
+                                                        </div>
+                                                        <div class="list-item__info">
+                                                            <p><i class="fa fa-angle-right" aria-hidden="true"></i> Quisque at massa ipsum</p>
+                                                            <p><i class="fa fa-angle-right" aria-hidden="true"></i> Maecenas a lorem augue, egestas</p>
+                                                            <p><i class="fa fa-angle-right" aria-hidden="true"></i> Cras vitae felis at lacus eleifend</p>
+                                                            <p><i class="fa fa-angle-right" aria-hidden="true"></i> Etiam auctor diam pellentesque</p>
+                                                            <p><i class="fa fa-angle-right" aria-hidden="true"></i> Nulla ac massa at dolor</p>
+                                                            <p><i class="fa fa-angle-right" aria-hidden="true"></i> Condimentum eleifend vitae vitae</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="small-12 medium-6 large-3 cell">
+                                                    <div class="features__list-item">
+                                                        <div class="list-item__title">
+                                                            <h3>List font size 14px</h3>
+                                                        </div>
+                                                        <div class="list-item__info">
+                                                            <p><i class="fa fa-check" aria-hidden="true"></i> Quisque at massa ipsum</p>
+                                                            <p><i class="fa fa-check" aria-hidden="true"></i> Maecenas a lorem augue, egestas</p>
+                                                            <p><i class="fa fa-check" aria-hidden="true"></i> Cras vitae felis at lacus eleifend</p>
+                                                            <p><i class="fa fa-check" aria-hidden="true"></i> Etiam auctor diam pellentesque</p>
+                                                            <p><i class="fa fa-check" aria-hidden="true"></i> Nulla ac massa at dolor</p>
+                                                            <p><i class="fa fa-check" aria-hidden="true"></i> Condimentum eleifend vitae vitae</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="features__sponsor">
+                                            <div class="sponsor__info">
+                                                <div class="sponsor__info-item">
+                                                    <div class="sponsor__info-item-title">
+                                                        <h2>Headline</h2>
+                                                    </div>
+                                                    <div class="sponsor__info-item-text">
+                                                        <p>Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="sponsor__info-link">
+                                                    <a href="index.html">VIEW MORE</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="features__spreadsheet">
+                                            <div class="features__spreadsheet-item">
+                                                <table>
+                                                    <tr>
+                                                        <th>TR Title</th>
+                                                        <th>TR Title</th>
+                                                        <th>TR Title</th>
+                                                        <th>TR Title</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Quisque</td>
+                                                        <td>Maecenas a lorem augue</td>
+                                                        <td>Etiam auctor diam pellentesque ulla ac massa at dolor</td>
+                                                        <td>Maecenas a lorem augue</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Quisque</td>
+                                                        <td>Maecenas a lorem augue</td>
+                                                        <td>Etiam auctor diam pellentesque ulla ac massa at dolor</td>
+                                                        <td>Maecenas a lorem augue</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Quisque</td>
+                                                        <td>Maecenas a lorem augue</td>
+                                                        <td>Etiam auctor diam pellentesque ulla ac massa at dolor</td>
+                                                        <td>Maecenas a lorem augue</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Quisque</td>
+                                                        <td>Maecenas a lorem augue</td>
+                                                        <td>Etiam auctor diam pellentesque ulla ac massa at dolor</td>
+                                                        <td>Maecenas a lorem augue</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="grid-x">
+                                                <div class="small-12 medium-12 large-6 cell">
+                                                    <div class="features__spreadsheet-item">
+                                                        <table>
+                                                            <tr>
+                                                                <th>TR Title</th>
+                                                                <th>TR Title</th>
+                                                                <th>TR Title</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Quisque</td>
+                                                                <td>Maecenas a lorem augue</td>
+                                                                <td>Maecenas a lorem augue</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Quisque</td>
+                                                                <td>Maecenas a lorem augue</td>
+                                                                <td>Maecenas a lorem augue</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Quisque</td>
+                                                                <td>Maecenas a lorem augue</td>
+                                                                <td>Maecenas a lorem augue</td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                                <div class="small-12 medium-12 large-6 cell">
+                                                    <div class="features__spreadsheet-item">
+                                                        <table>
+                                                            <tr>
+                                                                <th>TR Title</th>
+                                                                <th>TR Title</th>
+                                                                <th>TR Title</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Quisque</td>
+                                                                <td>Maecenas a lorem augue</td>
+                                                                <td>Maecenas a lorem augue</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Quisque</td>
+                                                                <td>Maecenas a lorem augue</td>
+                                                                <td>Maecenas a lorem augue</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Quisque</td>
+                                                                <td>Maecenas a lorem augue</td>
+                                                                <td>Maecenas a lorem augue</td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    @@include("---footer.html")
+    <script src="js/features-scripts/features.min.js" type="module"></script>
+</body>
+</html>

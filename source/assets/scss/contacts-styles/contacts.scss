@@ -1,0 +1,212 @@
+//active page
+header{
+    .header__navigation-items{
+        a:nth-child(7){
+            background: #62a29e;
+            border-bottom: 4px solid #528b86;
+        }
+        a:hover:not(a:nth-child(7)){
+            background: #e8645a;
+            border-bottom: 4px solid #e2534b;
+            transition: all ease .2s;
+        }
+    }
+}
+//contacts
+.contacts__info{
+    min-height: 80px;
+    background: #ececec;
+    .grid-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 80px;
+        .contacts__info-title{
+            position: relative;
+            h1{
+                font-size: 20px;
+                line-height: 24px;
+                font-weight: 600;
+                color: #7f8c8c;
+            }
+        }
+        .contacts__info-title:after{
+            content: "▼";
+            position: absolute;
+            color: #ececec;
+            top: 47px;
+            left: -5px;
+            font-size: 20px;
+        }
+        .contacts__info-point{
+            a, span{
+                font-size: 12px;
+                line-height: 14.4px;
+                color: #7f8c8c;
+            }
+            a:hover{
+                color: #e1524b;
+                transition: all ease .2s;
+            }
+        }
+    }
+}
+.contacts__content-end{
+    margin-top: 50px;
+    .contacts-map{
+        .contacts-map__item{
+            border-bottom: 4px solid #e5e6e6;
+            border-radius: 5px;
+            iframe{
+                border-radius: 5px;
+                height: 400px;
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+        .contacts-map__info{
+            margin-top: 56px;
+            padding-top: 26px;
+            padding-bottom: 26px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background: #ececec;
+            border-radius: 5px;
+            p{
+                font-size: 13px;
+                line-height: 20.8px;
+                color: #777777;
+            }
+        }
+    }
+}
+.contacts__main-info{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 180px;
+    .contacts-form{
+        .contacts-form__title{
+            margin-bottom: 65px;
+            h3{
+                font-size: 20px;
+                line-height: 24px;
+                font-weight: 600;
+                color: #7f8c8c;
+            }
+        }
+        .contacts-form__item{
+            form{
+                div{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    input, textarea{
+                        background: #e5e6e6;
+                        border-radius: 5px;
+                        border: 2px solid #d9dada;
+                        outline: none;
+                        min-height: 40px;
+                        width: 470px;
+                    }
+                    p{
+                        margin-left: 30px;
+                        font-size: 18px;
+                        line-height: 20.8px;
+                        color: #7f8c8c;
+                    }
+                }
+                .message{
+                    margin-bottom: 0;
+                    textarea{
+                        width: 770px;
+                        resize: none;
+                    }
+                }
+                .send{
+                    margin-top: 36px;
+                    button{
+                        font-size: 20px;
+                        line-height: 16.8px;
+                        color: #ffffff;
+                        font-weight: 500;
+                        background: #e8645a;
+                        border-bottom: 4px solid #e2534b;
+                        border-radius: 5px;
+                        width: 100%;
+                        max-width: 200px;
+                        min-height: 50px;
+                    }
+                    button:hover{
+                        background: #62a29e;
+                        border-bottom: 4px solid #528b86;
+                        transition: all ease .2s;
+                    }
+                }
+            }
+        }
+    }
+    .contacts-address{
+        max-width: 270px;
+        .contacts-address__title{
+            margin-bottom: 65px;
+            h3{
+                font-size: 20px;
+                line-height: 24px;
+                font-weight: 600;
+                color: #7f8c8c;
+            }
+        }
+        .contacts-address__info{
+            .address__info-item{
+                display: flex;
+                align-items: center;
+                i{
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #7f8c8c;
+                }
+                a, p{
+                    margin-left: 10px;
+                    font-size: 14px;
+                    line-height: 20.8px;
+                    color: #777777;
+                }
+                a:hover{
+                    color: #e1524b;
+                    transition: all ease .2s;
+                }
+            }
+            .address__info-item:first-child{
+                margin-bottom: 32px;
+                i{
+                    font-size: 36px;
+                    color: #e2534b;
+                }
+                a, p{
+                    margin-left: 6px;
+                }
+            }
+        }
+    }
+}
+//media queries for adaptive only for contacts.html page
+@media screen and (max-width: 1035px) {
+    .contacts__main-info{
+        flex-direction: column-reverse;
+        .contacts-address, .contacts-form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: none;
+        }
+        .contacts-form{
+            margin-top: 65px;
+            .message textarea, div input{
+                width: auto !important;
+                max-width: 770px !important;
+            }
+        }
+    }
+}
